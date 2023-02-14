@@ -1,5 +1,7 @@
 # Restiloc API Documentation
 
+Documentation de l'API, disponible en cliquant [ici](https://restiloc.space/docs/).
+
 ## Introduction
 
 Cette documentation décrit les fonctionnalités et les opérations disponibles via l'API. Il fournit également des informations sur la manière de s'authentifier, les définitions des end points, les paramètres requis et facultatifs, ainsi que des exemples de code pour vous aider à démarrer.
