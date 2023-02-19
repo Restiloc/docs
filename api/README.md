@@ -23,7 +23,7 @@ L'API propose les end points suivants :
 ##### Route GET méthode `index`
 
 ```bash
-GET|HEAD        api/missions
+GET|HEAD        cURL https://restiloc.space/api/missions
 ```
 
 #### Réponse
@@ -33,134 +33,134 @@ codeHTTP 200 OK
 Content-Type: application/json
 
 [
-	{
-		"id": 1,
-		"dateMission": "2023-02-22",
-		"startedAt": null,
-		"kilometersCounter": 98726,
-		"nameExpertFile": "Bulah Harber",
-		"isFinished": 1,
-		"route": "http:\/\/127.0.0.1:8000\/api\/missions\/1",
-		"vehicle": {
-			"id": 38,
-			"licencePlate": "WBAPK53549A473174",
-			"color": "Orange",
-			"releaseYear": 2008,
-			"route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/38"
-		},
-		"expert": {
-			"id": 8,
-			"lastName": "Murphy",
-			"firstName": "Rosanna",
-			"email": "lwuckert@gmail.com",
-			"phoneNumber": "+1-251-664-7522",
-			"username": "hill.trent",
-			"route": "http:\/\/127.0.0.1:8000\/api\/experts\/8"
-		},
-		"garage": {
-			"id": 79,
-			"name": "in aut excepturi",
-			"addressNumber": "72478 Manley Villages Apt. 471",
-			"street": "Doug Union",
-			"postalCode": "25058-6937",
-			"city": "South Archibaldstad",
-			"phoneNumber": "+1-619-482-6070",
-			"latitude": "-63.299811",
-			"longitude": "102.932155",
-			"url": "http:\/\/127.0.0.1:8000\/api\/garages\/79"
-		},
-		"unavailability": {
-			"id": 1,
-			"customerResponsible": 0,
-			"route": "http:\/\/127.0.0.1:8000\/api\/unavailabilities\/1"
-		},
-		"pree": [
-			{
-				"id": 16,
-				"label": "eum",
-				"description": "autem dolores quo corporis vel et sed quidem laborum unde laborum distinctio enim consectetur et ea laboriosam magni eos aliquid",
-				"image": "\/tmp\/1c744a992aa298c0e371bc266724328d.png",
-				"signature": "\/tmp\/6e0289155a3236193900c47a05ca01f6.png",
-				"route": "http:\/\/127.0.0.1:8000\/api\/pree\/16"
-			},
-			{
-				"id": 19,
-				"label": "quia",
-				"description": "voluptas maxime rerum id perferendis perspiciatis voluptas sequi vel quibusdam in omnis quae iste at omnis aspernatur dicta ut et",
-				"image": "\/tmp\/7b61aa98cd4d1068796fcef20dfdffeb.png",
-				"signature": "\/tmp\/d74411cec3b90e6190aac15f0f7953db.png",
-				"route": "http:\/\/127.0.0.1:8000\/api\/pree\/19"
-			},
-			{
-				"id": 20,
-				"label": "excepturi",
-				"description": "eaque provident eaque eaque explicabo corporis hic dolores ut molestiae praesentium laboriosam omnis recusandae voluptatem eos aut dolores mollitia quisquam",
-				"image": "\/tmp\/60f5d234226c713f06d3c35cb495d893.png",
-				"signature": "\/tmp\/1e4818828132951a7c1e93c414d0675f.png",
-				"route": "http:\/\/127.0.0.1:8000\/api\/pree\/20"
-			}
-		]
-	},
+ {
+  "id": 1,
+  "dateMission": "2023-02-22",
+  "startedAt": null,
+  "kilometersCounter": 98726,
+  "nameExpertFile": "Bulah Harber",
+  "isFinished": 1,
+  "route": "http:\/\/127.0.0.1:8000\/api\/missions\/1",
+  "vehicle": {
+   "id": 38,
+   "licencePlate": "WBAPK53549A473174",
+   "color": "Orange",
+   "releaseYear": 2008,
+   "route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/38"
+  },
+  "expert": {
+   "id": 8,
+   "lastName": "Murphy",
+   "firstName": "Rosanna",
+   "email": "lwuckert@gmail.com",
+   "phoneNumber": "+1-251-664-7522",
+   "username": "hill.trent",
+   "route": "http:\/\/127.0.0.1:8000\/api\/experts\/8"
+  },
+  "garage": {
+   "id": 79,
+   "name": "in aut excepturi",
+   "addressNumber": "72478 Manley Villages Apt. 471",
+   "street": "Doug Union",
+   "postalCode": "25058-6937",
+   "city": "South Archibaldstad",
+   "phoneNumber": "+1-619-482-6070",
+   "latitude": "-63.299811",
+   "longitude": "102.932155",
+   "url": "http:\/\/127.0.0.1:8000\/api\/garages\/79"
+  },
+  "unavailability": {
+   "id": 1,
+   "customerResponsible": 0,
+   "route": "http:\/\/127.0.0.1:8000\/api\/unavailabilities\/1"
+  },
+  "pree": [
+   {
+    "id": 16,
+    "label": "eum",
+    "description": "autem dolores quo corporis vel et sed quidem laborum unde laborum distinctio enim consectetur et ea laboriosam magni eos aliquid",
+    "image": "\/tmp\/1c744a992aa298c0e371bc266724328d.png",
+    "signature": "\/tmp\/6e0289155a3236193900c47a05ca01f6.png",
+    "route": "http:\/\/127.0.0.1:8000\/api\/pree\/16"
+   },
+   {
+    "id": 19,
+    "label": "quia",
+    "description": "voluptas maxime rerum id perferendis perspiciatis voluptas sequi vel quibusdam in omnis quae iste at omnis aspernatur dicta ut et",
+    "image": "\/tmp\/7b61aa98cd4d1068796fcef20dfdffeb.png",
+    "signature": "\/tmp\/d74411cec3b90e6190aac15f0f7953db.png",
+    "route": "http:\/\/127.0.0.1:8000\/api\/pree\/19"
+   },
+   {
+    "id": 20,
+    "label": "excepturi",
+    "description": "eaque provident eaque eaque explicabo corporis hic dolores ut molestiae praesentium laboriosam omnis recusandae voluptatem eos aut dolores mollitia quisquam",
+    "image": "\/tmp\/60f5d234226c713f06d3c35cb495d893.png",
+    "signature": "\/tmp\/1e4818828132951a7c1e93c414d0675f.png",
+    "route": "http:\/\/127.0.0.1:8000\/api\/pree\/20"
+   }
+  ]
+ },
     {
-			"id": 2,
-			"dateMission": "2023-02-15",
-			"startedAt": null,
-			"kilometersCounter": 196228,
-			"nameExpertFile": "Ulices Crist",
-			"isFinished": 1,
-			"route": "http:\/\/127.0.0.1:8000\/api\/missions\/2",
-			"vehicle": {
-				"id": 19,
-				"licencePlate": "WAUMF98P66A420495",
-				"color": "Turquoise",
-				"releaseYear": 1999,
-				"route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/19"
-			},
-			"expert": {
-				"id": 8,
-				"lastName": "Murphy",
-				"firstName": "Rosanna",
-				"email": "lwuckert@gmail.com",
-				"phoneNumber": "+1-251-664-7522",
-				"username": "hill.trent",
-				"route": "http:\/\/127.0.0.1:8000\/api\/experts\/8"
-			},
-			"garage": {
-				"id": 26,
-				"name": "alias tempore voluptas",
-				"addressNumber": "6456 Elmira Manors",
-				"street": "Daugherty Road",
-				"postalCode": "31847",
-				"city": "Port Angelberg",
-				"phoneNumber": "432.382.6595",
-				"latitude": "25.674442",
-				"longitude": "133.038127",
-				"url": "http:\/\/127.0.0.1:8000\/api\/garages\/26"
-			},
-			"unavailability": {
-				"id": 2,
-				"customerResponsible": 0,
-				"route": "http:\/\/127.0.0.1:8000\/api\/unavailabilities\/2"
-			},
-			"pree": [
-				{
-					"id": 29,
-					"label": "tempora",
-					"description": "omnis magni fugiat expedita aspernatur ducimus quos temporibus delectus libero doloremque illo ab aut nemo soluta corporis repudiandae fugiat facilis",
-					"image": "\/tmp\/1e8b4dce3681c0b5dfcb0fd2152e2b33.png",
-					"signature": "\/tmp\/2880baa4560e6de51ef14dc082159849.png",
-					"route": "http:\/\/127.0.0.1:8000\/api\/pree\/29"
-				},
-				{
-					"id": 38,
-					"label": "at",
-					"description": "aut quis assumenda ut ut possimus est aut quos sapiente dolore ut quibusdam nihil ut totam nam laborum est et",
-					"image": "\/tmp\/73227ff4069dadc23baf36be6d790174.png",
-					"signature": "\/tmp\/2cc60c8a430f171ff9f9719896051a81.png",
-					"route": "http:\/\/127.0.0.1:8000\/api\/pree\/38"
-				}
-			]
-		},
+   "id": 2,
+   "dateMission": "2023-02-15",
+   "startedAt": null,
+   "kilometersCounter": 196228,
+   "nameExpertFile": "Ulices Crist",
+   "isFinished": 1,
+   "route": "http:\/\/127.0.0.1:8000\/api\/missions\/2",
+   "vehicle": {
+    "id": 19,
+    "licencePlate": "WAUMF98P66A420495",
+    "color": "Turquoise",
+    "releaseYear": 1999,
+    "route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/19"
+   },
+   "expert": {
+    "id": 8,
+    "lastName": "Murphy",
+    "firstName": "Rosanna",
+    "email": "lwuckert@gmail.com",
+    "phoneNumber": "+1-251-664-7522",
+    "username": "hill.trent",
+    "route": "http:\/\/127.0.0.1:8000\/api\/experts\/8"
+   },
+   "garage": {
+    "id": 26,
+    "name": "alias tempore voluptas",
+    "addressNumber": "6456 Elmira Manors",
+    "street": "Daugherty Road",
+    "postalCode": "31847",
+    "city": "Port Angelberg",
+    "phoneNumber": "432.382.6595",
+    "latitude": "25.674442",
+    "longitude": "133.038127",
+    "url": "http:\/\/127.0.0.1:8000\/api\/garages\/26"
+   },
+   "unavailability": {
+    "id": 2,
+    "customerResponsible": 0,
+    "route": "http:\/\/127.0.0.1:8000\/api\/unavailabilities\/2"
+   },
+   "pree": [
+    {
+     "id": 29,
+     "label": "tempora",
+     "description": "omnis magni fugiat expedita aspernatur ducimus quos temporibus delectus libero doloremque illo ab aut nemo soluta corporis repudiandae fugiat facilis",
+     "image": "\/tmp\/1e8b4dce3681c0b5dfcb0fd2152e2b33.png",
+     "signature": "\/tmp\/2880baa4560e6de51ef14dc082159849.png",
+     "route": "http:\/\/127.0.0.1:8000\/api\/pree\/29"
+    },
+    {
+     "id": 38,
+     "label": "at",
+     "description": "aut quis assumenda ut ut possimus est aut quos sapiente dolore ut quibusdam nihil ut totam nam laborum est et",
+     "image": "\/tmp\/73227ff4069dadc23baf36be6d790174.png",
+     "signature": "\/tmp\/2cc60c8a430f171ff9f9719896051a81.png",
+     "route": "http:\/\/127.0.0.1:8000\/api\/pree\/38"
+    }
+   ]
+  },
 ]
 ...
 ```
@@ -172,7 +172,7 @@ Content-Type: application/json
 - Header
 
 ```bash
-POST 	api/vehicles
+POST  cURL https://restiloc.space/api/vehicles
 ```
 
 - Body
@@ -192,8 +192,8 @@ codeHTTP 201 Created
 Content-Type: application/json
 
 {
-	"success": "true",
-	"message": "Vehicle added successfully"
+ "success": "true",
+ "message": "Vehicle added successfully"
 }
 
 or
@@ -202,8 +202,8 @@ codeHTTP 400 Bad Request
 Content-Type: application/json
 
 {
-	"success": "false",
-	"message": "Failed to add vehicle"
+ "success": "false",
+ "message": "Failed to add vehicle"
 }
 ```
 
@@ -212,7 +212,7 @@ Content-Type: application/json
 ##### Route GET méthode `show`
 
 ```bash
-GET|HEAD        api/missions/{id}
+GET|HEAD        cURL https://restiloc.space/api/missions/{id}
 ```
 
 #### Paramètres
@@ -222,7 +222,7 @@ GET|HEAD        api/missions/{id}
 #### Requête
 
 ```bash
-GET|HEAD        api/missions/11
+GET|HEAD        cURL https://restiloc.space/api/missions/11
 ```
 
 #### Réponse
@@ -232,52 +232,52 @@ codeHTTP 200 OK
 Content-Type: application/json
 
 {
-	"id": 11,
-	"dateMission": "2023-02-26",
-	"startedAt": null,
-	"kilometersCounter": 120357,
-	"nameExpertFile": "Prof. Belle Johns IV",
-	"isFinished": 0,
-	"route": "http:\/\/127.0.0.1:8000\/api\/missions\/11",
-	"vehicle": {
-		"id": 50,
-		"licencePlate": "3C63DPML9CG620139",
-		"color": "Violet",
-		"releaseYear": 2000,
-		"route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/50"
-	},
-	"expert": {
-		"id": 7,
-		"lastName": "Becker",
-		"firstName": "Brennan",
-		"email": "bo56@yahoo.com",
-		"phoneNumber": "1-215-898-8708",
-		"username": "zmccullough",
-		"route": "http:\/\/127.0.0.1:8000\/api\/experts\/7"
-	},
-	"garage": {
-		"id": 78,
-		"name": "dignissimos et et",
-		"addressNumber": "4014 Jaiden Fords",
-		"street": "Brian Islands",
-		"postalCode": "90149",
-		"city": "West Ovafurt",
-		"phoneNumber": "(469) 215-1148",
-		"latitude": "85.379642",
-		"longitude": "-25.654986",
-		"url": "http:\/\/127.0.0.1:8000\/api\/garages\/78"
-	},
-	"unavailability": null,
-	"pree": [
-		{
-			"id": 10,
-			"label": "maiores",
-			"description": "praesentium nihil ipsum temporibus aut eos porro debitis possimus quod occaecati voluptatibus quis maxime quis illo consequatur laborum sit vero",
-			"image": "\/tmp\/0b3f897b3ba12472448167f6f7f09435.png",
-			"signature": "\/tmp\/6bed29cd3b1a2f12bf1c46d5ec04e082.png",
-			"route": "http:\/\/127.0.0.1:8000\/api\/pree\/10"
-		}
-	]
+ "id": 11,
+ "dateMission": "2023-02-26",
+ "startedAt": null,
+ "kilometersCounter": 120357,
+ "nameExpertFile": "Prof. Belle Johns IV",
+ "isFinished": 0,
+ "route": "http:\/\/127.0.0.1:8000\/api\/missions\/11",
+ "vehicle": {
+  "id": 50,
+  "licencePlate": "3C63DPML9CG620139",
+  "color": "Violet",
+  "releaseYear": 2000,
+  "route": "http:\/\/127.0.0.1:8000\/api\/vehicles\/50"
+ },
+ "expert": {
+  "id": 7,
+  "lastName": "Becker",
+  "firstName": "Brennan",
+  "email": "bo56@yahoo.com",
+  "phoneNumber": "1-215-898-8708",
+  "username": "zmccullough",
+  "route": "http:\/\/127.0.0.1:8000\/api\/experts\/7"
+ },
+ "garage": {
+  "id": 78,
+  "name": "dignissimos et et",
+  "addressNumber": "4014 Jaiden Fords",
+  "street": "Brian Islands",
+  "postalCode": "90149",
+  "city": "West Ovafurt",
+  "phoneNumber": "(469) 215-1148",
+  "latitude": "85.379642",
+  "longitude": "-25.654986",
+  "url": "http:\/\/127.0.0.1:8000\/api\/garages\/78"
+ },
+ "unavailability": null,
+ "pree": [
+  {
+   "id": 10,
+   "label": "maiores",
+   "description": "praesentium nihil ipsum temporibus aut eos porro debitis possimus quod occaecati voluptatibus quis maxime quis illo consequatur laborum sit vero",
+   "image": "\/tmp\/0b3f897b3ba12472448167f6f7f09435.png",
+   "signature": "\/tmp\/6bed29cd3b1a2f12bf1c46d5ec04e082.png",
+   "route": "http:\/\/127.0.0.1:8000\/api\/pree\/10"
+  }
+ ]
 }
 ```
 
@@ -286,7 +286,7 @@ Content-Type: application/json
 ##### Route PUT|PATCH méthode `update`
 
 ```bash
-PUT|PATCH 	api/vehicles/{id}
+PUT|PATCH       cURL https://restiloc.space/api/vehicles/{id}
 ```
 
 #### Paramètres
@@ -298,7 +298,7 @@ PUT|PATCH 	api/vehicles/{id}
 - Header
 
 ```bash
-PUT|PATCH       api/vehicles/51
+PUT|PATCH       cURL https://restiloc.space/api/vehicles/51
 ```
 
 - Body
@@ -318,8 +318,8 @@ codeHTTP 200 OK
 Content-Type: application/json
 
 {
-	"success": "true",
-	"message": "Vehicle updated successfully"
+ "success": "true",
+ "message": "Vehicle updated successfully"
 }
 
 or
@@ -328,8 +328,8 @@ codeHTTP 400 Bad Request
 Content-Type: application/json
 
 {
-	"success": "false",
-	"message": "Failed to updated vehicle"
+ "success": "false",
+ "message": "Failed to updated vehicle"
 }
 ```
 
@@ -338,7 +338,7 @@ Content-Type: application/json
 ##### Route DESTROY méthode `delete`
 
 ```bash
-DESTROY  	api/vehicles/{id}
+DESTROY         cURL https://restiloc.space/api/vehicles/{id}
 ```
 
 #### Paramètres
@@ -350,7 +350,7 @@ DESTROY  	api/vehicles/{id}
 - Header
 
 ```bash
-DESTROY        api/vehicles/51
+DESTROY        cURL https://restiloc.space/api/vehicles/51
 ```
 
 #### Réponse
@@ -360,8 +360,8 @@ codeHTTP 200 OK
 Content-Type: application/json
 
 {
-	"success": "true",
-	"message": "Vehicle deleted successfully"
+ "success": "true",
+ "message": "Vehicle deleted successfully"
 }
 
 or
@@ -370,8 +370,8 @@ codeHTTP 400 Bad Request
 Content-Type: application/json
 
 {
-	"success": "false",
-	"message": "Failed to delete vehicle"
+ "success": "false",
+ "message": "Failed to delete vehicle"
 }
 
 or
@@ -380,8 +380,8 @@ codeHTTP 404 Not Found
 Content-Type: application/json
 
 {
-	"success": "false",
-	"message": "Vehicle not found"
+ "success": "false",
+ "message": "Vehicle not found"
 }
 ```
 
